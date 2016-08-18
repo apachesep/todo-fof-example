@@ -1,9 +1,17 @@
-component/todo.xml
-release/*.zip
-/component/com_todo.xml
-component/fof
-component/strapper
+.idea/*
 
-.DS_Store
-/component/backend/com_todo.xml
-/.idea/
+/build/bin
+/build/buildlang
+/build/epub
+/build/phingext
+/build/tools
+/build/override.properties
+
+/component/*.xml
+
+/component/language/backend/en-GB
+/component/language/frontend/en-GB
+
+/release
+
+/*/.DS_Store

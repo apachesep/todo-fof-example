@@ -22,6 +22,12 @@
 	</common>
 
 	<frontend>
+		<container>
+			<option name="factoryClass">FOF30\Factory\MagicFactory</option>
+			<option name="scaffolding">0</option>
+			<option name="saveScaffolding">0</option>
+		</container>
+
 		<!-- In the frontend we also want to only show our own items -->
 		<model name="Items">
 			<behaviors merge="1">Own, Enabled, Ordered</behaviors>
